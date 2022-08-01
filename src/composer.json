@@ -1,0 +1,19 @@
+{
+    "name": "webdesign/mvc",
+    "description": "aplicação mvc com php oo",
+    "authors": [
+        {
+            "name": "bbroger1",
+            "email": "bb.roger@rcssoft.com.br"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "../app/",
+            "Src\\": "../src/"
+        }
+    }
+}
