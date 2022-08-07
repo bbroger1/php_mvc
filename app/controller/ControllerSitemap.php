@@ -4,10 +4,10 @@ namespace App\Controller;
 
 class ControllerSitemap
 {
-    /*public function __construct()
+    public function __construct()
     {
         echo "controller sitemap";
-    }*/
+    }
 
     public function testMethod($param1, $param2, $param3)
     {

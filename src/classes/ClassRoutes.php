@@ -19,7 +19,9 @@ class ClassRoutes
             ""          => "ControllerHome",
             "home"      => "ControllerHome",
             "sitemap"   => "ControllerSitemap",
-            "carros"    => "ControllerCarros"
+            "carros"    => "ControllerCarros",
+            "contato"   => "ControllerContato",
+            "cadastro"  => "controllerCadastro"
         );
 
         if (array_key_exists($controller, $this->route)) {

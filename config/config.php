@@ -3,7 +3,7 @@
 //Arquivos diretórios raízes
 $pastaInterna = "";
 define('DIRINTERN', "cursos/php_mvc");
-define('DIRPAGE', "http://{$_SERVER['HTTP_HOST']}/{$_SERVER['REDIRECT_URL']}{$pastaInterna}");
+define('DIRPAGE', "http://{$_SERVER['HTTP_HOST']}{$_SERVER['REDIRECT_URL']}{$pastaInterna}");
 
 if (substr($_SERVER['DOCUMENT_ROOT'], -1) === '/') {
     define('DIRREQ', "{$_SERVER['DOCUMENT_ROOT']}");
@@ -18,6 +18,6 @@ define("DIRJS", DIRPAGE . "public/js/");
 
 //acesso banco de dados
 define('HOST', "localhost");
-define('DB', "sistema");
+define('DB', "php_mvc");
 define('USER', "root");
 define('PASS', "");
